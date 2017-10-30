@@ -1,7 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-avatar-small {
+.navbar {
+  margin-bottom: 20px;
+  background-color: #FBFBEF;
+}
+
+.avatar-small {
  
       width: 28px;
  
@@ -23,5 +28,261 @@ avatar-small {
  .avatar-full {
  
       width: 100%;
+ 
+ }
+ body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F7F8E0;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+
+	padding: 12px 50px;
+	margin-top: 80px;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+body {  
+ 
+ color: #565a5c;
+ 
+ }
+ 
+ 
+ 
+ .container {
+ 
+ width: 80%;
+ 
+ }
+ 
+ 
+ 
+ .navbar-default {
+ 
+ background-color: #FFFFFF;
+ 
+ }
+ 
+ 
+ 
+ .navbar-default .navbar-brand {
+ 
+ color: #FF5A5F;
+ 
+ font-size: 2em;
+ 
+ font-weight: 400;
+ 
+ }
+ 
+  
+.btn-primary.btn {
+ 
+ border: 1px solid #ff5a5f;
+ 
+ border-radius: 2px;
+ 
+ font-weight: bold;
+ 
+ background-color: #ff5a5f;
+ 
+ color: #fff;
+ 
+ padding: 10px 25px 10px 25px;
+ 
+ }
+ 
+  
+.btn-primary.btn:hover, .btn-primary.btn:focus {
+ 
+ border-color: #ff7e82;
+ 
+ border-bottom-color: #fa0008;
+ 
+ background-color: #ff7e82;  
+ 
+ outline:none;
+ 
+ }
+ 
+  
+.btn-primary.btn:active {
+ 
+ border-color: #e00007;
+ 
+ background-color: #e00007;  
+ 
+ outline:none;
+ 
+ }
+ 
+  
+.btn-default.btn {
+ 
+ width: 100%;
+ 
+ border-radius: 2px;
+ 
+ padding: 10px 0;
+ 
+ margin-top: 10px; 
+ 
+ }
+ 
+  
+.panel-default .panel-heading {
+ 
+ color: #565a5c;
+ 
+ background-color: #edefed;
+ 
+ font-size: 18px;
+ 
+ font-weight: 400
+ 
+ }
+ 
+  
+.row-space-1 {
+ 
+ margin-top: 6px;
+ 
+ margin-bottom: 6px;
+ 
+ }
+ 
+  
+.row-space-2 {
+ 
+ margin-top: 12px;
+ 
+ margin-bottom: 12px;
+ 
+ }
+ 
+  
+.row-space-3 {
+ 
+ margin-top: 24px;
+ 
+ margin-bottom: 24px;
+ 
+ }
+ 
+  
+.description {
+ 
+ color: #575757;
+ 
+ font-size: 15px;
+ 
+ font-weight: 500;
+ 
+ line-height: 25px;
  
  }
