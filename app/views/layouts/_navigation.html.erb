@@ -10,10 +10,12 @@
             </button>
                <a class="navbar-brand" href="image">
         <img style="img-responsive"
-             src="../../assets/images/honeyground.png">
+             src="/img/honeyground.png">
     </a>
             <%= link_to 'Honeyground', root_path, { :class=>"navbar-brand" } %>
             </div>
+          
+          
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
         <% if (!user_signed_in?) %>
@@ -21,7 +23,7 @@
                 <li><%= link_to 'Connexion', new_user_session_path %></li>
         <% else %>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <%= image_tag avatar_url(current_user), class: "img-circle avatar-small" %> <%= current_user.fullname %><span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= image_tag avatar_url(current_user), class: "img-circle avatar-medium" %><%= current_user.fullname %><span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><%= link_to 'Mes miels', root_path %></li>
                     <li><%= link_to 'Modifier mon profil', edit_user_registration_path %></li>
